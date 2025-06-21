@@ -1,0 +1,1687 @@
+# Okami Rando Rough logic outline
+
+  #locations marked with * can be accessed while the area is cursed
+
+  #replace some junk (scrolls!) with Demon Fang Packets???
+
+  #Keep light beams spawned above buried chests???
+
+  #randomize weapons in tiers
+
+  #required items are Path of Gods (PoG)
+
+  #create item to warp to starting point
+
+  #remove item get textboxes for redundant items (treasures, etc.)
+
+  #chest type matches contents
+
+  #start with Sunrise/Crescent to make managing day/night cycle not a pain
+
+  Goal Conditions:
+    - Yami Defeated
+    - Bosses Defeated
+    - Brush Hunt
+    - Bead Hunt
+
+  River of Heavens: #consider splitting room 1 into 2 parts
+    #open & uncursed by default
+    Exits:
+      Kamiki Village: PS
+    Rooms:
+      Room 1:
+        Exits:
+          Kamiki Village: no requirement 
+          River of Heavens Room 2: Rejuvination
+        Locations:
+          chest after jump up: no requirement 
+          Rejuvination: #unknown if constellations require ink
+          chest after restoring river: Rejuvination #required, can we disable the flag?
+      Room 2:
+        Exits: 
+          River of Heavens Room 1: no requirement
+        Locations:
+          Power Slash Constellation: Rejuv, #location may lock player
+          chest behind trees near waterfall: no requirement 
+
+  Kamiki Village:
+    cursed by default: uncursed by Sunrise
+    Exits:
+      River of Heavens Room 1: no requirement 
+      Shinshu Field: Rejuv
+    Locations:
+      Sunrise*: no requirement
+      imp fight praise reward: no requirement
+      chest after Imp fight: no requirement
+      first chest under sunrise platform: no requirement
+      second chest under sunrise platform #might be a tricky jump without double jump, factor into logic?
+      Komuso fight praise reward: no requirement
+      buried chest next to Komuso:  digging
+      chest on rear island: no requirement
+      chest buried on rear island:  digging
+      chest on ledge near Mushi: no requirement
+      Mrs. Orange praise reward:  Rejuv, Sunrise
+      turnip digging praise reward:  digging #possible without ink, maybe trick logic?
+      chest buried in turnip field:  digging
+      chest in Orange house:  digging
+      2 chests in river near bridge:  PS
+      Merchant fight praise reward:  #attached cutscene
+      Merchant access:  Rejuv, PS
+      Water Lily Constellation:  Bloom
+      chest on island near Susanoo's house:  Water Lily
+      clover on island near Susanoo's house:  Water Lily, digging, bloom
+      first chest buried next to clover on island near Susanoo's house:  Water Lily, digging
+      second chest buried next to clover on island near Susanoo's house:  Water Lily, digging
+      chest underwater in waterfall basin:  PS  
+      clover on cliff near waterfall:  Vine, digging, Bloom
+      chest at waterfall source:  Vine
+      Hayabusa fight: Canine Tracker
+         
+  Shinshu Field:
+    cursed by default:  Rejuv, PS to open, uncursed by Bloom
+    Exits:
+      Kamiki Village: no requirement
+      Hana Valley: no requirement
+      Agata Forest water tunnel: Water Lily, CB
+      Moon Cave: no requirement
+      Kamui: Catwalk, ThunderStorm
+    Locations:
+      bloom guardian sapling: Bloom
+      chest underneath Guardian Sapling: no requirement
+      shop access: no requirement
+      gloomy patch near Kamiki praise reward:  Bloom
+      pottery workshop devil gate praise reward: no requirement
+      give Ida traveler's charm praise reward: no requirement
+      devil gate near Kamiki chest: no requirement
+      clover near Kamiki:  lvl2 digging, Bloom
+      clover near Guardian Sapling:  digging, Bloom
+      chest buried near Guardian Sapling:  digging
+      chest behind Guardian Sapling: no requirement
+      devil gate near Guardian Sapling praise reward: no requirement
+      clover on hill towards fireworks house:  digging, Bloom
+      chest buried on hill towards fireworks house:  digging
+      chest next to fireworks house: no requirement
+      chest buried under leaf pile next to fireworks house:  Galestorm, digging
+      chest buried next to pier near fireworks house:  digging
+      Cherry Bomb Constellation: no requirement
+      Cherry Bomb tutorial chest:  CB
+      chest outside entrance to Agata Forest: no requirement
+      chest under gloomy patch outside entrance to Agata Forest:  Bloom, CB
+      Mika's Monster Notebook #Don't know if we can separate this
+      Mika's Monster Notebook reward:  Mika's Monster Notebook
+      chest south of slope down to Moon Cave: no requirement
+      chest behind bombable wall near Catwalk statue:  CB
+      Shinshu mermaid spring devil gate praise reward: no requirement
+      dojo: no requirement
+      chest buried under burning leaves next to dojo:  Galestorm, digging
+      chest buried behind dojo:  digging
+      clover above tunnel to Agata Forest:  entry from Agata, lvl2 digging, Bloom
+      Lightning Ida Praise Reward 1: no requirement
+      Lightning Ida Praise Reward 2: no requirement
+      Lightning Ida Praise Reward 3: no requirement
+      Lightning Ida race 3 reward: no requirement
+      Guardian Statue 1 praise reward:  Sunrise, Crescent
+      Guardian Statue 2 praise reward:  Sunrise, Crescent
+      Guardian Statue 3 praise reward:  Sunrise, Crescent
+      Guardian Statue 4 praise reward:  Sunrise, Crescent
+      Guardian Statue 5 praise reward:  Sunrise, Crescent
+      chest buried behind potter's workshop:  digging
+      chest on gate to Moon Cave:  WaterSpout
+      devil gate on ridge praise reward:  Catwalk
+      clover near devil gate on ridge:  Catwalk, digging, Bloom
+      chest buried near devil gate on ridge:  Catwalk, digging
+      chest buried near entrance to Kamui:  Catwalk
+      devil gate near entrance to Kamui praise reward:  Catwalk
+      clover on cliff:  Catwalk, digging, Bloom
+      chest buried on cliff:  Catwalk, digging
+      chest near entrance to Kamui:  Catwalk
+      Tama praise reward 1:  lvl2 CB
+      Tama praise reward 2:  lvl3 CB
+      Tama gift:  lvl3 CB
+      Nameless Man gift: no requirement #story flag requirement
+
+  Hana Valley:
+    cursed by default: uncursed by PS, Bloom
+    Exits:
+      Shinshu Field: no requirement
+    Locations:
+      chest at start*: no requirement
+      Bloom Constellation*:  PS
+      Bloom Guardian Sapling praise reward: PS, Bloom
+      yellow imp refight praise reward: no requirement
+      gloomy patch praise reward: Bloom #see if actually required
+      river island praise reward: no requirement
+      river island chest: no requirement
+      river island clover: digging, Bloom
+      clover across river near entrance: digging, Bloom
+      chest after blooming all cherry trees: Bloom
+      chest buried after tunnel*: digging
+      clover near waterfall: digging, Bloom
+
+  Agata Forest:
+    cursed by default: uncursed by Bloom, CB
+    Exits:
+      Shinshu Field: no requirement
+      Tsuta Ruins::  Ruins Key [carried]
+      Taka Pass:  Vine
+      Ryoshima Coast unlocked from Ryoshima side: no requirement
+    Locations:
+      chest inside Madame Fawn's house*: no requirement
+      3 chests outside Madame Fawn's house*:  WaterSpout/Galestorm
+      chest on ledge above Madame Fawn's house*:  WaterSpout
+      clover outside Madame Fawn's house*:  lvl3 PS, digging, bloom
+      bloom Guardian Sapling praise reward*: CB, Bloom
+      chest under guardian sapling: CB, Bloom
+      clover behind guardian sapling: CB, digging, bloom
+      bud on north island:  bloom
+      north bud on large island:  bloom
+      south bud on large island:  bloom
+      bud on central island:  bloom
+      chest on central island:  digging
+      bud on south island:  bloom
+      bud at top of waterfall:  bloom
+      bud on beach in front of Madame Fawn cave:  bloom
+      top of waterfall demon gate praise reward: no requirement
+      clover at tree near mermaid spring:  lvl2 digging, bloom
+      bud on beach near gloomy patch on south lakeshore:  bloom
+      bud on beach on south lakeshore:  bloom
+      gloomy patch on south lakeshore:  bloom
+      chest behind kokari's house:  digging
+      chest on cliff near entrance to Tsuta:  digging
+      chest next to Kiba: no requirement
+      shop access: no requirement
+      fang shop access: no requirement
+      near Tsuta demon gate praise reward
+      buried chest outside Tsuta:  lvl2 digging
+      chest outside Tsuta: no requirement
+      chest under leaf pile near Sleepy Bear:  Galestorm, digging
+      Sleepy Bear Reward 1: no requirement
+      Sleepy Bear Reward 2:  clearing top of waterfall demon gate
+      Sleepy Bear Reward 3:  PS
+      item on tree on south island:  Vine
+      item on tree on central island:  Vine
+      bridge praise reward:  Vine, Tsuta Clear #might remove this, leave bridge down for area accessibility
+      chest on other side of bridge:  Vine, Tsuta Clear
+      chest on top of tree near mermaid spring:  Vine
+      bud inside tree near mermaid spring:  bloom
+      Crescent Constellation: no requirement
+      Ume fight: no requirement
+      clover in cave near Tsuta:  CB, Catcall
+      
+  Tsuta Ruins:
+    cursed by default: uncursed with Sunrise, PS  
+    Exits: 
+      Agata Forest: no requirement
+    Rooms:
+      Central Room:
+        Exits:
+          Demon Tree Passage: no requirement
+          Blockhead's Lair: Waterlily, Bloom, Sunrise, CB
+          Dogu Statue Interior: uncursed dungeon
+          Spider Queen Antechamber: Vine
+        Locations:
+          chest across from origin mirror*: no requirement
+          bud across from origin mirror*: Bloom
+          bud in stream near Blockhead*: Bloom
+          bud in river near living tree*: Bloom
+          chest in first room near door*: no requirement
+          clover next to living tree in river: Waterlily, digging, Bloom
+          clover next to Dogu Statue Entrance: digging, Bloom
+      Demon Tree Passage: 
+        Exits:
+          Central Room: no requirement
+          Waterfall Hallway: no requirement
+        Locations:
+          clover next to demon tree*: digging, Bloom, Water Lily
+      Waterfall Hallway:
+        Exits:
+          Demon Tree Passage: no requirement
+          Ogre Hallway: Waterlily
+        Locations:
+          bud before jump*: Bloom
+          clover above door to Demon Tree Passage*: digging, Bloom
+      Ogre Hallway:
+        Exits:
+          Waterfall Hallway: no requirement
+          Ogre's Den: no requirement
+        Locations:
+          bud after pond*: Bloom
+          clover on overhang*: Vine, Digging, Bloom
+          bud on overhang*: Vine, Bloom
+        Forced Fight:
+          Bud Ogre: Bloom
+      Ogre's Den:
+        Exits:
+          Ogre Hallway: no requirement
+          Rocky Tunnel: Sunrise
+        Locations:
+          bud in side room*: PS, Bloom
+      Rocky Tunnel:
+        Exits:
+          Ogre's Den: no requirement
+          Bridge Above Demon Trees: CB
+        Locations:
+          clover on cliff behind bombable wall*:  CB, digging, Bloom
+      Bridge Above Demon Trees:
+        Exits:
+          Rocky Tunnel: no requirement
+          Crumbling Bridge: no requirement
+      Crumbling Bridge:
+        Exits:
+          Bridge Above Demon Trees: no requirement
+          Blockhead's Lair: no requirement #one time use, check if can be left up
+      Blockhead's Lair:
+        Exits:
+          Main Room: no requirement
+          Overgrown Tunnel: Arrow Key
+        Locations:
+          bud behind bombable wall*: CB, Bloom
+          bud in side room*: Vine, Bloom
+          first clover in side room*: Vine, Digging, Bloom
+          second clover in side room*: Vine, Digging, Bloom
+          item after defeating Blockhead*: no requirement
+      Overgrown Tunnel:
+        Exits:
+          Blockhead's Lair: no requirement
+          Mirror Room: Rejuvination
+        Locations:
+          bud on plinth*: Bloom
+      Mirror Room:
+        Exits:
+          Overgrown Tunnel: no requirement
+          Waterfall Room: no requirement
+          Dogu Overlook: no requirement
+      Dogu Overlook:
+        Exits:
+          Mirror Room: no requirement
+          Main Room: no requirement
+        Locations:
+          clover on ledge: digging, Bloom
+      Waterfall Room:
+        Exits:
+          Mirror Room: no requirement
+          Main Room: no requirement
+        Locations:
+          first bud at bottom of waterfall*: Bloom
+          second bud at bottom of waterfall*: Bloom
+          chest at top of waterfall*: Sunrise
+          bud behind bombable wall behind waterfall: CB, Bloom
+      Dogu Statue Interior:
+        Exits:
+          Main Room: no requirement
+          Locations:
+            first gloomy patch: Bloom
+            second gloomy patch: Bloom
+            third gloomy patch: Bloom
+            Vine Constellation: Bloom
+      Spider Queen Antechamber:
+        Exits:
+          Central Room: no requirement
+          Spider Queen Lair: no requirement
+        Locations:
+          left chest: no requirement
+          right chest: no requirement
+      Spider Queen Lair:
+        Locations:
+          Spider Queen Reward: Vine
+
+  Taka Pass:
+    Cursed by Default: Uncursed by CB, Rejuv, Bloom
+    Exits:
+      Agata Forest: no requirement
+      Sasa Sanctuary: Chun
+      Kusa Village: no requirement
+      City Checkpoint: no requirement
+    Sub Areas:
+      Guardian Sapling Path:
+        Exits:
+          Main Area: no requirement 
+        Locations:
+          chest hidden in pool in Waka fight room: PS*
+          first flaming chest in passageway to guardian sapling: Waterspout/Galestorm*
+          second flaming chest in passageway to guardian sapling: Galestorm*
+          clover after passageway to guardian sapling: lvl2 PS, digging, Bloom*
+          first chest under leaves on cliff near guardian sapling: Galestorm, digging*
+          second chest under leaves on cliff near guardian sapling: Galestorm, digging*
+          chest under leaves next to guardian sapling: Galestorm, digging*
+          bloom guardian sapling: Rejuv, Bloom*
+          first clover on cliff after vine chain: Vine, digging, Bloom
+          second clover on cliff after vine chain: Vine, digging, Bloom
+          third clover on cliff after vine chain: Vine, digging, Bloom
+          chest on large rock: Vine
+      Main Area:
+        Exits:
+          Guardian Sapling Path: CB
+          Moley's Treasure Trove: lvl2 digging
+        Locations:
+          shop access*: no requirement
+          chest under leaf pile next to Agata entrance*: Galestorm, digging
+          chest buried next to tea shop: digging*
+          Molsters first Reward: no requirement
+          Molsters second Reward: no requirement
+          Tea Master Reward: Golden Teacup #carried
+          Tea Customer praise reward: Pinwheel
+          demon gate near origin mirror praise reward: bloom
+          chest under leaf pile near origin mirror: Galestorm, digging
+          chest under leaf pile near Molsters: Galestorm, digging
+          chest under leaf pile near mermaid spring: Galestorm, digging
+          chest between rocks near mermaid spring: digging
+          mermaid spring demon gate praise reward: bloom
+          chest on top of Cutter's house: Vine
+          chest under leaf pile near Kagegami Flags: Galestorm, digging
+          chest after Kagegami Flags: Vine, Galestorm
+          chest buried near Bingo: digging
+          demon gate near City Checkpoint praise reward: no requirement
+          Cutters combat: no requirement
+          chest under leaf pile behind cutters house: Galestorm, digging
+          chest buried next to lake near cutters house: digging
+          clover on cliff above lake near cutters house: WaterSpout, digging, Bloom
+          Bingo digging: Galestorm, WaterSpout, digging, PS, Bloom, PATIENCE
+          clover on ledge above cat statue: Catcall, digging, Bloom
+      Moley's Treasure Trove:
+        Exits:
+          Main Area: no requirement
+        Locations:
+          clover in center: digging, Bloom
+          clover left of chest: digging, Bloom
+          clover right of chest: digging, Bloom
+          three chests: no requirement
+
+  Kusa Village:
+    Cursed by Default: Uncursed via combat
+    Exits:
+        Taka Pass: no requirement
+        Gale Shrine: no requirement
+    Locations:
+        shop access*: no requirement
+        Komuso fight reward*: no requirement
+        chest in Mr Bamboo house*: digging
+        gift from Fuse*: no requirement
+        chest in south pool near Fuse house: PS
+        chest in north pool near Fuse house: PS
+        chest buried near Gale Shrine: digging
+        clover near Gale Shrine: digging, Bloom
+        chest behind blockhead: Vine
+        first clover behind blockhead: Vine, digging, Bloom
+        second clover behind blockhead: Vine, digging, Bloom
+        Rei praise reward: Canine Tracker, meat feedbag, CB
+        clover in bamboo field: digging, Bloom
+        clover behind fence near Susanoo: digging, Bloom
+        Shin praise reward: Canine Tracker, meat feedbag, Bloom
+        daruma doll in Inn : no requirement
+        Haruka's Revenge Contract: no requirement
+        Haruka's Revenge Contract Reward: Haruka's Revenge Contract
+        Chi praise reward: Canine Tracker, meat feedbag, PS
+        Ko praise reward: Canine Tracker, meat feedbag, Vine
+        chest near Ko: no requirement
+        chest buried near Fuse house: digging
+        first chest after flags near Ko: Vine, Galestorm
+        second chest after flags near Ko: Vine, Galestorm
+        flower girl praise reward: Galestorm
+
+  Sasa Sanctuary:
+    Exits:
+      Taka Pass: no requirement
+    Locations: 
+      chest next to main gate*: no requirement
+      daruma doll in merchant's room: no requirement
+      shop access: no requirement
+      10 chests in Boss's room: no requirement
+      Waterspout Constellation: digging
+      clover on ledge: Waterspout, digging, Bloom
+      Take fight: Waterspout
+      chest buried on grove path: digging
+      left chest buried in grove alcove: digging
+      right chest buried in grove alcove: digging
+      Kaguya digging reward: digging, PS, CB, WaterSpout, Bloom
+
+  City Checkpoint:
+    Sub-Areas:
+      East Bank: 
+        Exits:
+          Taka Pass: no requirement
+          City Checkpoint West Bank: Inferno
+        Locations:
+          shop access: no requirement
+          chest buried behind shop: digging
+          chest under south ramp: no requirement
+          flaming chest on riverbank: WaterSpout/Galestorm
+          chest buried on riverbank: digging
+          chest buried near end of riverbank: digging
+          clover at end of riverbank: digging, Bloom
+          clover in cave behind waterfall: digging, Bloom
+          chest buried on island near river source: water tablet, digging
+          clover on island near river source: water tablet, digging, Bloom
+      West Bank:
+        Exits:
+          City Checkpoint East Bank: no requirement
+          Ryoshima Coast: no requirement
+        Locations:
+          chest on first pillar in river: Vine
+          chest on second pillar in river: Vine
+          gloomy patch inside south tower: Bloom
+          gloomy patch next to giant gear: Bloom
+          gloomy patch inside north tower: Bloom
+          gloomy patch behind north tower: Bloom
+          clover near north tower: digging, Bloom
+          chest buried near south tower: digging
+
+  Gale Shrine:
+    Rooms:
+      Entryway:
+        Exits:
+          Kusa Village: no requirement
+          Pool Chamber: Canine Orbs
+      Pool Chamber:
+        Exits:
+          Entryway: no requirement
+          Wind Bridge: no requirement
+        Locations:
+          three chests in pool in front of entrance: PS
+          side chamber demon gate reward: no requirement
+          defeat Canine Warriors: advanced combat
+      Wind Bridge:
+        Exits:
+          Elevator Lobby: no requirement
+          Long Room: Galestorm
+      Elevator Lobby:
+        Exits:
+          Wind Bridge: no requirement
+          Under the Elevator: Arrow Key, CB
+          2F Balcony: Arrow Key, CB
+          3F Balcony: Arrow Key, CB, third floor key
+      Under the Elevator:
+        Exits:
+          Elevator Lobby: no requirement
+        Locations:
+          first chest under elevator platform: no requirement
+          second chest under elevator platform: no requirement
+          third chest under elevator platform: no requirement
+          first clover under elevator platform: digging, Bloom
+          second clover under elevator platform: digging, Bloom
+      2F Balcony:
+        Exits:
+          Elevator Lobby: no requirement
+        Locations:
+          second floor demon scrool reward: no requirement
+          flaming chest on second floor balcony: Galestorm
+      3F Balcony:
+        Exits:
+          Elevator Lobby: no requirement
+        Locations:
+          flaming chest on third floor balcony: Galestorm, third floor key
+          chest above stairs to shrine peak: third floor key
+          Galestorm Constellation: third floor key
+      Long Room:
+        Exits:
+          Long Room Upper Rafters: Vine, Galestorm
+        Locations:
+          chest after windmill bridge: no requirement
+          flaming chest at back of long room: Galestorm
+          flaming chest in rafters under vine blossom: Vine, Galestorm
+          flaming chest in rafters: Galestorm
+      Long Room Upper Rafters:
+        Exits:
+          Flame Hall: Galestorm
+          Long Room: no requirement
+        Locations:
+          first chest in upper rafters: no requirement
+          second chest in upper rafters: no requirement
+      Flame Hall:
+        Exits:
+          Long Room Upper Rafters: no requirement
+          Crimson Helm Arena: Galestorm
+      Crimson Helm Room:
+        Exits:
+          Flame Hall: no requirement
+        Locations:
+          Crimson Helm Reward: Galestorm
+          Princess Fuse Praise Reward: Galestorm
+
+  Moon Cave:
+    #One-Time Dungeon in Vanilla
+    Rooms:
+      Moon Cave Exterior:
+        Exits:
+          Shinshu Field: no requirement
+          Calcified Cavern: Serpent Crystal
+      Calcified Cavern:
+        Exits:
+          Main Room: Mask
+        Locations:
+          Thunder Brew: no requirement
+          chest after gold gate: no requirement
+          frozen chest on ledge: WaterSpout, Inferno
+          demon gate chest: no requirement
+      Main Room:
+        Exits:
+          Calcified Cavern: no requirement
+          Kitchen: no requirement
+          Long Cave: Arrow Key
+          Main Room 2F: Ogre Liver
+          Main Room B1: opened from Main Room B1
+          Main Room B2: PS
+          Orochi's Shrine: Ogre Liver, Lips of Ice , Eye of Fire, Black Demon Horn
+        Locations:
+          clover in planter: Lips of Ice, digging, Bloom
+          chest in planter: Eye of Fire
+          frozen chest in planter: Black Demon Horn, Inferno, Torches lit/tier 5 reflector/FIreburst
+      Kitchen:
+        Exits:
+          Main Room: no requirement
+          Kitchen Annex: Inferno
+        Locations:
+          save Ajimi: Vine
+          chest on platform above soup: Vine
+      Long Cave:
+        Exits:
+          Main Room 2F: WaterSpout
+          Circular Room: Vine, PS
+      Circular Room:
+        Exits:
+          Long Cave: no requirement
+        Locations:
+          demon gate chest: Bloom
+      Main Room 2F:
+        Exits:
+          Main Room: no requirement
+          Main Room 3F: WaterSpout
+        Locations:
+          chest on ledge: Inferno, Torches lit/tier 5 reflector/FIreburst, WaterSpout
+      Main Room 3F:
+        Exits:
+          Main Room: no requirement
+          Main Room 2F: no requirement
+          Main Room 4F: Vine
+          Bridge Breaking Room: no requirement
+          Sandy Room: Arrow Key
+        Locations:
+          Shop Access: no requirement
+          frozen chest next to shop: Inferno, Torches lit/tier 5 reflector/FIreburst
+      Bridge Breaking Room:
+        Exits:
+          Main Room 3F: no requirement
+          Basement Cavern: no requirement
+          Room After Breaking Bridge: Restore, Inferno
+      Room After Breaking Bridge:
+        Exits:
+          Bridge Breaking Room: no requirement
+        Locations:
+          demon gate chest: no requirement
+          Arrow Key: no requirement
+          3 frozen chests: Inferno, Torches lit/tier 5 reflector/FIreburst
+      Basement Cavern:
+        Exits:
+          Main Room B1: WaterSpout
+        Locations:
+          demon gate praise reward: no requirement
+          chest on ledge: WaterSpout, Waterlily
+      Main Room B1:
+        Exits:
+          Basement Cavern: no requirement
+      Main Room B2:
+        Exits:
+          Eye Statue Cavern: no requirement
+      Eye Statue Cavern:
+        Exits:
+          Main Room B2: no requirement
+          Bird Statue Room: PS
+      Bird Statue Room:
+        Exits:
+          Eye Statue Cavern: no requirement
+          Elevator Room B2: Inferno
+        Locations:
+          Inferno Constellation: no requirement
+      Elevator Room B2:
+        Exits:
+          Bird Statue Room: no requirement
+          Elevator Room F1: no requirement
+        Locations:
+          chest behind bombable wall: Inferno, CB
+      Elevator Room F1:
+        Exits:
+          Elevator Room B2: no requirement
+          Kitchen Annex: no requirement
+      Kitchen Annex:
+        Exits:
+          Elevator Room F1: no requirement
+          Kitchen: Inferno
+        Locations:
+          demon gate chest: no requirement
+      Sandy Room:
+        Exits:
+          Main Room 3F:  Galestorm
+        Locations:
+          clover on ledge:  digging, Bloom
+          chest near orb button:  Galestorm
+          clover in sand:  Galestorm, digging, Bloom
+      Main Room 4F:
+        Exits: 
+          Main Room 3F: no requirement
+          Main Room 2F: no requirement
+          Main Room: no requirement
+          Rocky Passage: Galestorm, Inferno, Torches lit/tier 5 reflector/Fireburst
+      Rocky Passage:
+        Exits:
+          Main Room 4F
+        Locations:
+          lower frozen chest on ledge: Galestorm, Inferno
+          upper frozen chest on ledge: Galestorm, Inferno
+          demon gate chest: Galestorm, Inferno
+      Orochi's Shrine:
+        Exits:
+          Orochi Arena: no requirement
+        Locations:
+          shop access: no requirement
+      Orochi Arena:
+        Locations:
+          Orochi Reward: PS, WaterSpout, Crescent
+              
+  Ryoshima Coast:
+    Cursed by default: uncursed by CB, WaterSpout, Bloom
+    Exits:
+      City Checkpoint West Bank: no requirement
+      Sei-An City Commoner's Quarters: no requirement
+      Agata Forest: no requirement
+      Sunken Ship: Double Jump, Crescent, Prayer Slips
+      North Ryoshima Coast: Border Key
+      Himiko's Palace: Fox Rods
+    Locations:
+      clover next to second pool under Guardian Sapling: lvl2 PS, digging, Bloom*
+      clover next to shortcut to Madame Fawn's House: digging, Bloom
+      chest buried behind Ankoku Temple: digging
+      chest inside Ankoku Temple: no requirement
+      clamshell near City Checkpoint entrance: PS
+      clamshell near fisherman: PS
+      clamshell near City Checkpoint entrance: PS
+      clamshell under Moon Turret: PS
+      clamshell near beach by Ankoku Temple: PS
+      clover on beach by Ankoku Temple: lvl2 PS, digging, Bloom
+      clamshell near beach across from Shipwreck: PS
+      clamshell near beach across from dojo: PS
+      clamshell near beach by stone pier: PS
+      clamshell near beach next to stone pier: PS
+      clamshell on other side of stone pier: PS
+      clover on other side of stone pier: digging, Bloom
+      clover in front of Moon Turret: no requirement
+      shop access: no requirement
+      west gloomy patch across from Shipwreck: Bloom
+      south gloomy patch across from Shipwreck: Bloom
+      east gloomy patch across from Shipwreck: Bloom
+      chest buried next to stone pier: digging
+      chest at the end of stone pier: no requirement
+      chest on dojo island: Waterlily
+      chest on dojo island turret: Waterlily, Double Jump
+      chest buried next to dojo: Waterlily, lvl2 digging
+      clamshell in cave under dojo: Waterlily, CB, PS
+      demon gate near stone pier: no requirement
+      chest buried near demon gate: digging
+      chest next to Sei-An gate: no requirement
+      clover next to Sei-An entry: lvl2 digging, Bloom
+      chest next to Sei-An entry: digging
+      mermaid spring devil gate praise reward: no requirement
+      clover next to mermaid spring: lvl3 PS, digging, Bloom
+      Bandit Spider reward: lvl2 digging, Vine
+      Trial Gate Reward 1: lvl2 digging, advanced combat
+      Trial Gate Reward 2: lvl2 digging, advanced combat
+      clamshell buried north of Shipwreck: double jump, Crescent, digging
+      clamshell buried south of Shipwreck: double jump, Crescent, digging
+      north chest on top of Shipwreck: double jump, Crescent
+      south chest on top of Shipwreck: double jump, Crescent
+      Super-fast Hayate race 1: Blight Defeated
+      Super-Fast Hayate race 2: Ninetales Defeated
+      Super-Fast Hayate race 3: Ninetales Defeated
+      clover on island in waterfall basin: digging, Bloom
+      chest on cat tower in waterfall basin: Catwalk
+      Animal Lover praise reward: no requirement
+      Animal Lover reward: no requirement
+      14 clamshell on rocks in bay: Waterlily, PS
+
+  Sei-An City Commoner's Quarter:
+    Cursed by default: uncursed by Killing Blight
+    Exits:
+      Ryoshima Coast: no requirement
+      Sei-An City Bridge: no requirement
+    Locations:
+      weapons shop access*: no requirement
+      tools shop access*: no requirement
+      chest west of city entrance*: no requirement
+      first chest in canal*: PS
+      second chest in canal*: PS
+      third chest in canal*: PS
+      fourth chest in canal*: PS
+      fifth chest in canal*: PS
+      sixth chest in canal*: PS
+      seventh chest in canal*: PS
+      eighth chest in canal*: PS
+      ninth chest in canal*: PS
+      tenth chest in canal*: PS
+      chest buried near center plaza*: digging
+      chest buried behind house on east side*: digging
+      chest behind carpeter's shop*: no requirement
+      chest buried behind Mr. Flower's house*: digging
+      chest buried inside Mr. Flower's house*: digging
+      chest east of gate to bridge*: no requirement
+      chest buried behind teahouse: digging
+      chest buried next to Blossom house: digging
+      chest behind design shop: no requirement
+      eight chests in vault: CB
+      Blossom praise reward: Herbal Medicine
+      Bloom Mr. Flower praise reward: Bloom
+      Gura Shuffle praise reward: Bloom
+      Yama reward: Golden Mushrooms
+      Yama praise reward: Golden Mushrooms
+      chest after Yama reward: no requirement
+      Masu's Monster Manifest: no requirement
+      Monster Manifest Reward: Monster Manifest
+      Blossom Papa praise reward: Bloom, Gura Shuffle done
+      Camille praise reward: Bloom, Downpour
+      Camellia reward: Bloom, Downpour
+      chest buried in design shop: digging
+      Drawing Girl first praise reward: no requirement
+      Drawing Girl second praise reward: no requirement
+      Drawing Girl third praise reward: no requirement
+      Drawing Girl fourth praise reward: no requirement
+      Drawing Girl fifth praise reward: no requirement
+      Drawing Girl final reward: no requirement
+      chest behind Tao Troopers headquarters: WaterSpout
+      Hayazo first reward: Inferno, PS, WaterSpout
+      Hayazo second reward: Inferno, PS, WaterSpout
+      Hayazo third reward: Inferno, PS, WaterSpout
+      Hayazo fourth reward: Inferno, PS, WaterSpout, ThunderStorm
+      Samurai Dandy reward: Glass Watch
+      Momotaro reward: Millet Dumplings
+      City Dweller reward: Chrysanthemum Hairpin
+      Abe praise reward: Tao Mask
+      Abe reward: Tao Mask
+      carpenter ferry praise reward: Waterlily, Galestorm
+      first lily ferry praise reward: Waterlily, Galestorm
+      fast first lily ferry praise reward: Waterlily, Galestorm
+      second lily ferry praise reward: Waterlily, Galestorm
+      fast second lily ferry praise reward: Waterlily, Galestorm
+      third lily ferry praise reward: Waterlily, Galestorm
+      fast third lily ferry praise reward: Waterlily, Galestorm
+
+  Sei-An City Bridge:
+    Cursed by Default: Uncursed by Killing Blight
+    Exits:
+      Sei-An City Commoner's Quarter: no requirement
+      Sei-An City Aristocratic Quarter: Blinding Snow
+    Locations:
+      left chest in Rao's office*: no requirement
+      right chest in Rao's office*: no requirement
+      chest in eastern lake: PS
+
+  Sei-An City Aristocratic Quarter:
+    Cursed by default: uncursed by Killing Blight
+    Exits:
+      Sei-An City Bridge: no requirement
+      Himiko's Palace: VM
+      Imperial Palace: Lucky Mallet
+      Imperial Courtyard: Blight Defeated
+    Locations:
+      Komuso Reward*: no requirement
+      Komuso Praise Reward*: no requirement
+      chest buried east of Rao's office*: no requirement
+      chest in Okuni's house*: no requirement
+      chest buried outside Okuni's house: digging*
+      chest outside Okuni's house*: no requirement
+      chest in canal:  PS*
+      chest buried behind vault: digging*
+      chest buried next to canal: digging*
+      chest in noble's house*: no requirement
+      chest buried outside noble's house digging*: no requirement
+      Prayer Slips*: no requirement
+      clover next to mermaid spring: digging, Bloom
+      chest in canal near water wheel: PS
+      clover in northwest corner: digging, Bloom
+      chest in guard house: no requirement
+      chest outside guard house: no requirement
+      chest buried outside guard house: digging
+      chest buried near Komuso: no requirement
+      clover bured near west water wheel: no requirement
+      chest in canal near east water wheel: PS
+      water Himiko's Grave: WaterSpout, Ninetales Defeated
+      chest after watering Himiko's Grave: WaterSpout, Ninetales Defeated
+      Gen reward: Catwalk, Gimmick Gear
+      Gen praise reward: Catwalk, Gimmick Gear
+      chest after Gen reward: Catwalk, Gimmick Gear
+      electric chest next to Gen: Catwalk, Gimmick Gear, LightningBolt
+
+  Sunken Ship:
+    Exits: Ryoshima Coast
+    Locations:
+      three chests in first room: no requirement
+      chest next to golden gate:  Sunrise, Crescent
+      chest in center cannon alcove:  CB, Double Jump
+      chest in upper cannon alcove:  CB, Double Jump
+      item in lower cannon alcove:  CB, Double Jump
+      first chest in hallway alcove: no requirement
+      second chest in hallway alcove: no requirement
+      chest above balance barrel:  PS
+      clover next to balance barrel:  digging, Bloom
+      kill sludge monster praise reward:  Sunrise, Crescent
+      first chest in treasure room:  Arrow Key
+      second chest in treasure room:  Arrow Key
+      third chest in treasure room:  Arrow Key
+
+  Imperial Palace:
+    #One-Time Dungeon in Vanilla
+    Exits:
+      Sei-An City Aristocratic Quarter: no requirement
+    Rooms:
+      Entryway:
+        Exits:
+          Sei-An Aristocratic Quarter: no requirement
+          Kaguya's Prison: no requirement
+          Underground Grotto: Arrow Key, CB
+        Locations:
+          Issun Tutorial Chest: Issun #not sure if forced
+      Kaguya's Prison:
+        Exits:
+          Entryway: no requirement
+          Footpath: no requirement
+        Locations:
+          chained chest in swamp: no requirement
+          chest on stepping stone: no requirement
+      Footpath:
+        Exits:
+          Kaguya's Prison: no requirement
+          Bamboo Room: VoM
+        Locations:
+          chest behind first bombable wall: CB
+          item in front of second bombable wall: no requirement
+          chest behind second bombable wall: CB
+      Underground Grotto:
+        Exits:
+          Entryway: no requirement
+        Locations:
+          clover on ledge: digging, Bloom
+          clover on high ledge: double jump, digging, Bloom
+          chained chest on high ledge: double jump
+          clover on highest ledge: double jump, digging, Bloom
+          Veil of Mist Constellation: CB, PS, Galestorm
+        Forced Fight:
+          Wind Doom Mirror: VoM
+      Bamboo Room:
+        Exits:
+          Footpath: VoM
+          Bedroom: WaterSpout
+        Locations:
+          chained chest below tilting Bamboo: no requirement
+      Bedroom:
+        Exits:
+          Bamboo Room: no requirement
+          Blight Arena double jump: no requirement
+        Locations:
+          chest on north rafters: no requirement
+          chained chest on north rafters: no requirement
+          chained chest on south rafters: no requirement
+          chest on west rafters: no requirement
+          chest on southwest rafters: no requirement
+          chest on south rafters: no requirement
+      Blight Arena:
+        Exits:
+          Bedroom: no requirement
+          Imperial Palace: no requirement
+        Locations:
+          Blight Reward: PS, VoM
+
+  Imperial Courtyard:
+    Exits:
+      Sei-An City Aristocratic Quarter: no requirement
+    Locations:
+      Emperor Access: no requirement
+      Mist Warp: Demon Fangs #bought from shop
+      chest after buying Mist Warp: Demon Fangs #unsure if included in pool
+      chest behind Emperor: no requirement
+      five buried chests in zen garden: digging
+
+  Himiko's Palace:
+    Exits:
+      Sei-An City Aristocratic Quarter: no requirement
+      Ryoshima Coast: Fox Rods
+    Locations:
+      chest behind west staircase: no requirement
+      chest buried in zen garden: digging
+      clover behind east staircase: digging, Bloom
+      daruma doll in west treasure room: no requirement
+      chest in west treasure room: no requirement
+      three chests in east treasure room: no requirement
+      chest behind Palace: no requirement
+      chest behind elevator: no requirement
+      item before Sea of Flames: no requirement
+      item from Himiko: Fire Tablet
+      Fake Rao reward: Fire Tablet, Fox Rods
+
+  North Ryoshima Coast:
+    #Uncursed by default
+    Exits:
+      Ryoshima Coast: #Border Key?
+      Ryoshima Sea: Sunrise/Water Tablet
+      Oni Island: Dragon Orb
+    Locations:
+      chest buried on coast near Watcher's Cape: digging
+      two clovers on N. Ryo Rocky Area: Mist Warp, digging, Bloom
+      chest on N. Ryo Rocky Area: Mist Warp
+      chest buried east of Watcher's Cape: digging
+      clover near merchant: lvl2 digging, Bloom
+      shop access: no requirement
+      chest in stream near waterfall: PS
+      chest in stream near bridge: PS
+      two chests in stream between bridge and ocean
+      chest buried on beach near Urashima's house: digging
+      chest buried near golden spring: digging
+      chest buried on Guardian Sapling island: Waterlily, digging
+      clover on Guardian Sapling island: Waterlily, digging, Bloom
+      chest on Guardian Sapling island: Waterlily, digging
+      Guardian Sapling fruit praise reward: WaterSpout, PS
+      chest buried near demon gate: digging
+      demon gate praise reward: no requirement
+      three clovers in secret spring: lvl2 digging, Bloom
+      three chests in secret spring: lvl2 digging
+      clover near catcall statue: digging, Bloom
+      clover next to fish restaurant: lvl2 PS, digging, Bloom
+      clamshell west of Watcher's Cape: PS, Waterlily
+      first clamshell west of fish restaurant: PS/Waterlily
+      second clamshell west of fish restaurant: PS/Waterlily
+      clamshell north of fish restaurant: PS/Waterlily
+      first clamshell west of Urashima's house: PS/Waterlily
+      second clamshell west of Urashima's house: PS/Waterlily
+      clamshell north of Urashima's house: PS/Waterlily
+      Umi reward: Marlin
+      chest after Umi reward: Marlin
+      three chests at gravesite: Catcall
+      chest buried on Watcher's Cape: Catcall, digging
+      Watcher's praise reward: Catcall
+      Urashima reward: Treasure Box
+      Urashima praise reward: Treasure Box
+
+  Ryoshima Sea:
+    #Uncursed by default
+    Exits:
+      North Ryoshima Coast: no requirement
+      Catcall Tower: no requirement
+      Dragon Palace: Catcall, Galestorm
+    Locations:
+      clamshell between Catcall and westernmost island: PS
+      first chest buried on westernmost island: digging
+      second chest buried on westernmost island: digging
+      clover on westernmost island: lvl2 PS, digging, Bloom
+      flaming chest on spoon-shaped island: Galestorm
+      three clovers in bomb shrine: CB, digging, Bloom
+      bomb shrine donation reward: CB, 120k yen
+      chest after bomb shrine donation reward: CB, 120k yen
+      two clamshells between spoon-shaped island and center island: PS
+      clover on center island: digging, Bloom
+      three clovers in PS shrine: PS, digging, Bloom
+      PS shrine donation reward: PS, 60k yen
+      clover under iron on center island: lvl2 PS, digging, Bloom
+      clamshell between northwest island and west island: PS
+      clover on northwest island: double jump, digging, Bloom
+      chest buried on west island: digging
+      chest after Bandit Spider: lvl2 digging, Vine
+      chest after Demon Trial Gate: lvl2 digging, Vine, advanced combat
+      Demon Trial Gate reward: lvl2 digging, Vine, advanced combat
+      marlin fishing: Marlin Rod
+      first clamshell on southwest island: no requirement
+      second clamshell on southwest island: PS
+      chest buried on beach on southwest island: digging
+      chest buried on southwest island: digging
+      clover on southwest island: digging, Bloom
+      clover in stony patch on southwest island: lvl2 digging, Bloom
+      chest on southwest island: no requirement
+
+  Catcall Tower:
+    #Uncursed by default
+    Exits:
+      Ryoshima Sea: no requirement
+    Locations:
+      three clovers at tower's base: digging, Bloom
+      chest on top of small northeast tower: Catcall
+      chest on top of small northwest tower: catcall
+      chest at tower's base: no requirement
+      chest on tower lvl3: no requirement
+      chest on tower lvl4: no requirement
+      chest on tower lvl6: no requirement
+      chest on tower lvl7: no requirement
+      chest on tower lvl8: no requirement
+      chest near mermaid spring: no requirement
+      chest on tower top middle level: no requirement
+      Catcall Constellation: fish feedbag
+      chest on tower top upper level: Catcall
+      perfect tower climb reward: no requirement
+
+  Dragon Palace:
+    Rooms:
+      Main Room:
+        Exits:
+          Ryoshima Sea: no requirement
+          Soothing spring: Shell Amulet
+          Dragon's Garden: Shell Amulet
+        Locations:
+          clamshell near origin mirror: no requirement
+          first clamshell across from origin mirror: no requirement
+          second clamshell across from origin mirror: no requirement
+          three clovers in secret cave under staircase: CB, digging, Bloom
+          three chests in secret cave under staircase: CB
+          chest in archives room: no requirement
+          shop access: no requirement
+          Otohime first gift: no requirement
+          Otohime second gift: Ninetales Defeated
+      Soothing spring:
+        Exits:
+          Dragon Palace: no requirement
+        Locations:
+          clamshell north of entrance: no requirement
+          clamshell on north ledge: no requirement
+          chest on top of pillar: Rejuvination
+          spring digging reward: PS, digging, Galestorm
+          spring digging praise reward: PS, digging, Galestorm
+          chest after spring digging: PS, digging, Galestorm
+      Dragon's Garden:
+        Exits:
+          Dragon Palace: no requirement
+          Water Dragon: no requirement #entrance is gone after killing Tube Foxes, Place an NPC to access?
+        Locations:
+          clamshell north of entrance: no requirement
+          clamshell on ledge : no requirement
+          clamshell on high ledge: no requirement
+          gloomy patch where dragon was: Bloom #post-dragon
+          chest after blooming gloomy patch: no requirement #post-dragon
+      
+  Water Dragon:
+    Exits:
+      Dragon's Garden: no requirement
+    Rooms:
+      Entry Passage:
+        Exits:
+          Dragon's Garden: no requirement
+          Main Chamber: no requirement
+        Locations:
+          clamshell on platform in stream: no requirement
+          clamshell buried on opposite shore: digging
+          two clamshells on opposite shore: no requirement
+          clamshell buried on main path: no requirement
+          clamshell on platform in pool: no requirement
+      Main Chamber:
+        Exits:
+          Entry Passage: no requirement
+          Pearl Chamber: Arrow Key
+        Locations:
+          clamshell on platform near entrance: no requirement
+          clamshell on platform on main path: no requirement
+          clamshell on platform near Arrow Key: no requirement
+          clamshell on platform in pool: no requirement
+          clamshell buried near platform in pool: digging
+          chest in passageway in ceiling: WaterSpout
+          item on platform in pool: WaterSpout
+          clamshell buried near tree: digging
+      Orb Chamber:
+        Exits:
+          Main Chamber: no requirement
+        Locations:
+          orb reward: WaterSpout, Waterlily
+          tube fox fight reward: no requirement
+
+  Oni Island:
+    Rooms: 
+      Dragon Bridge:
+        Exits:
+          North Ryoshima Coast: no requirement
+          Courtyard: Inferno, Fire Tablet
+      Courtyard:
+        Exits:
+          Dragon Bridge: no requirement
+          First Floor Main Room: Inferno, Fire Tablet
+        Locations:
+          chest on island in west lava pool:  Fire Tablet, Vine
+          chest on island in east lava pool:  Fire Tablet, Vine
+          chest west of gate: no requirement
+          chest east of gate: no requirement
+      Main Room 1F:
+        Exits:
+          Courtyard: no requirement
+          East Staircase: Arrow Key
+          Statue Chamber: Thunder Key
+        Locations:
+          shop access: no requirement
+          item in side room: no requirement
+          chest in locked side room: ThunderStorm, Thunder Key/Tier 5 Glaive
+      East Staircase:
+        Exits:
+          Main Room 1F: no requirement
+          Needle Pit: no requirement
+        Locations:
+          chest above staircase: double jump
+      Needle Pit:
+        Exits:
+          East Staircase: no requirement
+          Catcall Staircase: Double Jump
+        Locations:
+          chest under staircase: no requirement
+      Catwalk Staircase:
+        Exits:
+          Needle Pit: no requirement
+          Terraced Passage: Catwalk
+      Terraced Passage:
+        Exits:
+          Catwalk Staircase: Catwalk, Double Jump
+          Passage of Saws: Double Jump
+      Passage of Saws:
+        Exits:  
+          Terraced Passage: no requirement
+          Passage of Demonic Wheels: Double Jump
+      Passage of Demonic Wheels:
+        Exits:
+          Passage of Saws: no requirement
+          Chamber of Delay: no requirement
+        Locations:
+          chest by hanging scrolls: no requirement
+      Chamber of Delay:
+        Exits:
+          Passage of Demonic Wheels: no requirement
+          Heat Rays of Hell: no requirement
+        Locations:
+          chest in antechamber: no requirement
+          chest in afterchamber: no requirement
+      Heat Rays of Hell:
+        Exits:
+          Chamber of Delay: PS
+          Spring Chamber: PS
+        Locations:
+          chest in 2nd left alcove: PS
+          chest in 3rd right alcove: PS
+      Spring Chamber:
+        Exits:
+          Heat Rays of Hell: no requirement
+          Passage of Needles: no requirement
+      Passage of Needles:
+        Exits:
+          Spring Chamber: no requirement
+          Roof Terrace: CB
+          Connecting Passage: Arrow Key
+      Roof Terrace:
+        Exits:
+          Passage of Needles: no requirement
+        Locations:
+          item on roof: Catwalk
+      Connecting Passage:
+        Exits:
+          Passage of Needles: no requirement
+          Statue Terrace: no requirement
+        Locations:
+          chest in spike circle: no requirement
+      Statue Terrace:
+        Exits:
+          Connecting Passage: no requirement
+          3F Passage: ThunderStorm
+        Locations:
+          ThunderStorm Constellation: Rejuvination
+          clover in front of door to 3F: no requirement
+      3F Passage Upper:
+        Exits:
+          Statue Terrace: no requirement
+          3F Passage Lower: CB
+        Locations:
+          electric chest: ThunderStorm
+      3F Passage Lower:
+        Exits:
+          Sliding Doors of Hell: CB, {ThunderStorm, Thunder Key/Tier 5 Glaive}first time] {Vine}[second time]
+        Locations:
+          item behind hanging scroll: no requirement
+      Sliding Doors of Hell:
+        Exits:
+          3F Passage Lower: no requirement
+          Main Room 1F: no requirement
+        Locations:
+          first chest in right branch: no requirement
+          second chest in right branch: no requirement
+          third chest in right branch: no requirement
+          first chest in center branch: no requirement
+          second chest in center branch: no requirement
+          third chest in center branch: no requirement
+          fourth chest in center branch: no requirement
+          fifth chest in center branch: no requirement
+          sixth chest in center branch: no requirement
+      Statue Chamber:
+        Exits:
+          Main Room 1F: no requirement
+          Sidescroll Passage: ThunderStorm, PS
+        Locations:
+          east electric chest: ThunderStorm
+          west electric chest: ThunderStorm
+          east chest: no requirement
+          west chest: no requirement
+      Sidescroll Passage:
+        Exits:
+          Statue Chamber: no requirement
+          Main Chamber 5F: no requirement
+        Locations:
+          item at top of passage: ThunderStorm, Catwalk, PS
+          chest in side corridor above item at top of passage: ThunderStorm, Catwalk, PS
+          chest after blossoms above item at top of passage: ThunderStorm, Catwalk, PS, Vine
+      Main Chamber 4F:
+        Exits:
+          Sidescroll Passage: no requirement
+          Racing Passage 5F: Thunder Key/Weapon Tier 5, Arrow Key, VoM, CB, Vine
+        Locations:
+          electric chest below staircase: ThunderStorm, Thunder Key/Weapon Tier 5
+          electric chest on ledge: ThunderStorm, Thunder Key/Weapon Tier 5
+          chest in locked room: Thunder Key/Weapon Tier 5, VoM
+      Racing Passage 5F:
+        Exits:
+          Main Chamber 4F: no requirement
+        Locations:
+          electric chest above stairs: ThunderStorm, Thunder Key/Weapon Tier 5
+          electric chest above stairs halfway through race: ThunderStorm, Thunder Key/Weapon Tier 5
+      Ogre's Chamber:
+        Exits: 
+          Racing Passage 5F: no requirement
+          Poison Pit: no requirement
+      Poison Pit:
+        Exits:
+          Ogre's Chamber: no requirement
+          Spider Corridor: Catwalk
+      Spider Corridor:
+        Exits:
+          Poison Pit: Catwalk
+          Lightning Chamber: VoM
+        Locations:
+          electric chest on ledge: Catwalk, VoM, ThunderStorm, Thunder Key/Weapon Tier 5
+      Lightning Chamber:
+        Exits:
+          Spider Corridor: VoM
+          Race Passage 7F: double Jump
+      Race Passage 7F:
+        Exits:
+          Lightning Chamber: no requirement
+          Rooftop Arena: Vine, double jump
+        Locations:
+          electric chest above Lightning Chamber: Vine, double jump, ThunderStorm, Thunder Key/Weapon Tier 5
+      Rooftop Arena:
+        Exits:
+          Race Passage 7F: no requirement
+        Locations:
+          Ninetales Reward: Thunderstorm
+          
+  Kamui:
+    Cursed by Default: Uncursed with ThunderStorm, Bloom
+    Exits:
+      Shinshu Field: no requirement
+      Wep'Keer: no requirement
+      Yoshpet: Sewaprolo
+    Locations:
+      Yoichi praise reward: ThunderStorm*
+      bloom guardian sapling: ThunderStorm, Bloom*
+      frozen chest next to Yoichi's hut: Inferno
+      chest buried near Kokari: digging
+      frozen chest near Kokari: Inferno
+      chest buried under snow pile outside dojo: Inferno, digging
+      dojo access: no requirement
+      clover near merchant: lvl2 PS, digging, Bloom
+      clover next to Guardian Sapling: Vine, digging, Bloom
+      three clovers in bomb shrine: lvl2 CB, digging, Bloom
+      bomb shrine donation reward: lvl2 CB, 300k yen
+      chest after bomb shrine donation reward: lvl2 CB, 300k yen
+      clover on island in frozen lake: digging, Bloom
+      three clovers in Blockhead Grande grotto: lvl2 digging, Bloom
+      Blockhead Grande praise reward: lvl2 digging
+      three chests after Blockhead Grande: lvl2 digging
+      demon gate in frozen lake praise reward
+      chest buried next to frozen lake demon gate: digging
+      chest buried on small island in frozen lake: digging
+      Wali's Record of Penance: no requirement
+      Record of Penance reward: Wali's Record of Penance
+      demon gate near Wep'Keer praise reward: Inferno
+      frozen chest in tunnel: Inferno
+      chest on pillar in tunnel pit: double jump
+      frozen chest next to tunnel pit: Inferno
+      clover on tunnel pit ledge: double jump, digging, Bloom
+      frozen chest at north tunnel end: double jump, Inferno
+      clover at south tunnel end: double jump, lvl3 PS, digging, Bloom
+      clover next to Wep'Keer entrance: lvl2 digging, Bloom
+      chest after Bandit Spider: CB, lvl2 digging
+      demon trial gate reward: CB, lvl2 digging, advanced combat
+      chest after demon trial gate: CB, lvl2 digging, advanced combat
+      chest outside Bandit Spider Arena: no requirement
+      chest on frozen waterfall: no requirement
+      clover under iron near frozen waterfall: lvl2 PS, digging
+      chest buried near entrance to Yoshpet: digging
+      chest buried near frozen waterfall: no requirement
+    Forced Fight:
+      Igloo Turtle: Inferno
+
+  Wep'Keer:
+    closed by default: #story thing, can we open by default?
+    Exits:
+      Kamui: no requirement
+      Ezofuji: opened by talking to Chief
+      Snowball Playground: opened by talking to Chief
+    Locations:
+      clover on island in frozen lake: digging, Bloom
+      chest buried near entrance to Kamui: digging
+      chest buried near frozen lake: digging
+      clover on island in lake: digging, Bloom
+      chest buried next to lake: digging
+      clover next to waterfall: digging, Bloom
+      chest in alcove near waterfall: no requirement
+      clover on cliff near Kai's house: digging, Bloom
+      chest buried near Kai's house: digging
+      chest buried near Chief's house: digging
+      chest under frozen waterfall near Kai's house: no requirement
+      shop access: no requirement
+
+  Snowball Playground:
+    Exits:
+      Wep'Keer: no requirement
+    Locations:
+      frozen chest in northwest: Inferno
+      chest buried by south wall: digging
+      frozen chest in southeast: Inferno
+      frozen chest in east: Inferno
+      snowball roll praise reward: FUCKING PATIENCE
+
+  Ezofuji:
+    Exits:
+      Wep'Keer: no requirement
+      Wawku Shrine: Lika
+      Ark of Yamato: no requirement
+    Locations:
+      chest next to origin mirror: no requirement
+      frozen chest on east lake ledge: Vine, Inferno
+      flaming chest on east lake ledge: Vine, Galestorm
+      clover on northeast lake ledge: Vine, digging, Bloom
+      clover on lower north lake ledge: Vine, lvl2 digging, Bloom
+      two clovers on middle north lake ledge: Vine, lvl2 digging, Bloom
+      chest buried on middle north lake ledge: Vine, lvl2 digging, Bloom
+      chest on top north lake ledge: Vine
+      chest buried on top north lake ledge: Vine, digging
+      clover on north lake ledge: Vine, digging, Bloom
+      Tuskle gift: no requirement
+      three clovers in PS shrine: lvl2 PS, digging, Bloom
+      PS shrine donation reward: lvl2 PS, 360K yen
+      chest after donation reward: lvl2 PS, 360K yen
+      clover under geode next to PS shrine: lvl3 PS, digging, Bloom
+      three chests in Rocky Area: Mist Warp
+
+  Yoshpet:
+    Rooms:
+      Yoshpet Entry:
+        Exits:
+          Kamui: no requirement
+          Demon Grove: Double Jump
+      Demon Grove:
+        Exits:
+          Yoshpet Entry: Double Jump
+          Icicle Gorge
+        Locations:
+          chest after first vine wall: no requirement
+          chest in demon tree grove: no requirement
+          chest on island in frozen lake: no requirement
+          chest in first dead end: no requirement
+      Icicle Gorge:
+        Exits:
+          Demon Grove: no requirement
+          Snowball Valley: no requirement
+        Locations:
+          chest in falling icicle area: no requirement
+          chest between vine walls: no requirement
+          chest on first island in poison lake: no requirement
+          chest in winding Valley: no requirement
+          chest in dead end: no requirement
+      Snowball Valley:
+        Exits:
+          Icicle Gorge: no requirement
+          Ponc'Tan Grove: no requirement
+        Locations:
+          chest on frozen lake: no requirement
+          chest in switchback Valley: no requirement
+          chest buried in dead end: no requirement
+      Ponc'Tan Grove:
+        Exits:
+          Snowball Valley: no requirement
+          Ponc'Tan: Lucky Mallet
+          Inner Yoshpet: no requirement
+        Locations:
+          Kai Race Reward: Lechku and Nechku Defeated
+
+  Ponc'Tan:
+    Exits:
+      Ponc'Tan Grove: no requirement
+      Inner Yoshpet Entry: no requirement
+    Locations:
+      chest on platform near village entrance: Vine
+      chest on east walkway: no requirement
+      clover on far east platform: no requirement
+      chest on tall platform near village entrance: Vine
+      shop access: no requirement
+      chest on farthest west walkway platform: no requirement
+      chest on northwest platform: no requirement
+      chest on platform next to bowl pool: Vine
+      chest on tall platform above bowl pool: Vine, WaterSpout
+      chest on platform behind onion house: Vine, WaterSpout
+      clover on top of central mushroom: Vine, digging, Bloom
+      chest above shop: Vine, double jump
+      chest on platform behind Ishaku's house: Vine
+      Isshaku Guards praise reward: True Orochi Defeated
+      Isshaku gift: True Orochi Defeated
+
+  Inner Yoshpet:
+    Rooms:
+      Inner Yoshpet Entry:
+        Exits:
+          Ponc'Tan clearing: no requirement
+          Thorn Path: no requirement
+      Thorn Path:
+        Exits:
+          Inner Yoshpet Entry: no requirement
+          Poison Pass: no requirement
+        Locations:
+          chest between thorn walls: no requirement
+          chest after glacier canyon: no requirement
+          chest at dead end: no requirement
+      Poison Pass:
+        Exits:
+          Thorn Path: no requirement
+          Snowball Valley: no requirement
+        Locations:
+          chest at crossroads: no requirement
+          chest at dead end: no requirement
+      Snowball Valley:
+        Exits:
+          Poison Pass: no requirement
+          Spirit Gate: no requirement
+        Locations:
+          chest on right platform in Catwalk Chasm: no requirement
+          chest in narrow passageway: no requirement
+          chest at dead end: no requirement
+      Spirit gate:
+        Exits:
+          Snowball Valley: no requirement
+          Past Kamiki: no requirement
+
+  Past Kamiki:
+    Exits:
+      Spirit Gate: #not available in Vanilla
+      Past Shinshu Field: no requirement
+    Locations:
+      clover on west island: digging, Bloom
+      chest buried behind Mr. Apple's house: digging
+      two chests in river south of bridge: PS
+      chest in river north of bridge: PS
+      clover on small east island: Waterlily, digging, Bloom
+      chest buried on large east island: digging
+      clover on ledge above washing pole: digging, Bloom
+
+  Past Shinshu Field:
+    Exits:
+      Past Kamiki: no requirement
+      Past Moon Cave: no requirement
+    Locations:
+      clover at north end of path: digging, Bloom
+      clover under iron before hill: lvl2 PS, digging, Bloom
+      chest buried in stone circle: digging
+      chest near pond: no requirement
+      clover behind dojo site: digging, Bloom
+      clover under iron on top of hill: lvl2 PS, digging, Bloom
+      clover on peak of hill: digging, Bloom
+      clover under iron next to gate to Moon Cave: digging, Bloom
+      clover near south wall: digging, Bloom
+      chest where Guardian Sapling was walk through gate: no requirement
+      clover north of path to Moon Cave: digging, Bloom
+      chest south of path to Moon Cave: no requirement
+
+  Past Moon Cave:
+    Exits:
+      Past Shinshu Field: no requirement
+    Locations:
+      item on stairs: no requirement
+      True Orochi reward: WaterSpout, PS, Crescent
+
+  Wawku Shrine:
+    Rooms:
+      Entryway:
+        Exits:
+          Ezofuji: no requirement
+          Central Room 1F: no requirement
+        Locations:
+          chest under left cannon: VoM, PS
+          chest under right cannon: VoM, PS
+      Central Room 1F:
+        Exits:
+          Entryway: no requirement
+          Central Room 2F: Arrow Key, Inferno, WaterSpout
+          Scale Chamber: Inferno
+      Scale Chamber:
+        Exits:
+          Central Room 1F: no requirement
+        Locations:
+          item in sealed room: double jump, PS, Bloom, Inferno, Galestorm
+          chest in northeast corner: double jump
+      Central Room 2F:
+        Exits:
+          Central Room 1F: no requirement
+          Tower Rim : no requirement
+          Central Room 3F: Catwalk
+        Locations:
+          chest behind bombable wall: must be dropped to from Central Room 3F
+      Tower Rim:
+        Exits:
+          Central Room 1F: no requirement
+        Locations:
+          chest on tower room east: no requirement
+      Central Room 3F:
+        Exits:
+          Central Room 2F: no requirement
+          Tower Rim: no requirement
+          Central Room 1F: no requirement
+          Central Room 4F: VoM
+      Central Room 4F:
+        Exits:
+          Central Room 3F: no requirement
+          Central Room 2F: no requirement
+          Tower Rim: no requirement
+          Central Room 1F: no requirement
+          Gear Corridor: no requirement
+          Central Room 5F: Blizzard, Double Jump
+          Cannon Terrace: Gear Key
+        Locations:
+          chest on tower ledge:  Double Jump
+      Gear Corridor:
+        Exits:
+          Central Room 4F: no requirement
+          Blizzard Terrace: VoM, Double Jump
+        Locations:
+          chest on ledge: VoM, double Jump
+      Blizzard Terrace:
+        Exits:
+          Gear Corridor: no requirement
+        Locations:
+          frozen chest in front of door to Gear Corridor: Inferno
+          clover before valley: digging, Bloom
+          Blizzard Constellation: CB, Inferno, VoM, PS
+          13th brush gift: CB, Inferno, VoM, PS
+          chest on ledge in valley: Blizzard, double jump
+      Central Room 5F:
+        Exits:
+          Central Room 4F: no requirement
+          Central Room 3F: no requirement
+          Central Room 2F: no requirement
+          Tower Rim: no requirement
+          Central Room 1F: no requirement
+          Gear Room: Double Jump, Blizzard, Inferno, Vine
+        Locations:
+          chest on ledge above spider: Blizzard, double jump
+      Gear Room:
+        Exits:
+          Central Room 5F: no requirement
+          Spinning Platform Hall: double jump, lvl5 reflector+Inferno/Fireburst
+        Locations:
+          frozen chest on platform: Inferno, VoM
+      Spinning Platform Hall:
+        Exits:
+          Gear Room: no requirement
+          Snowflake Pit: VoM, Blizzard
+      Snowflake Pit:
+        Exits:
+          Spinning Platform Hall: no requirement
+          Snowflake Terrace: Blizzard
+      Snowflake Terrace:
+        Exits:
+          Snowflake Pit: no requirement
+          Flame Hall: no requirement
+        Locations:
+          clover after pit: Blizzard, digging, Bloom
+      Flame Hall:
+        Exits:
+          Snowflake Terrace: no requirement
+          Frozen hallway: Galestorm
+      Frozen hallway:
+        Exits:
+          Flame Hall: no requirement
+          Lechku Antechamber: VoM
+      Nechku Antechamber:
+        Exits:
+          Frozen hallway: no requirement
+          Nechku Arena: no requirement
+        Locations:
+          frozen chest east: Inferno
+          frozen chest west: Inferno
+      Nechku Arena:
+        Exits:
+          Central Room 4F: no requirement
+        Locations:
+          item after defeating Nechku: no requirement
+      Cannon Terrace:
+        Exits:
+          Central Room 4F: no requirement
+          Burning Gear Room: Inferno, Blizzard, VoM, PS
+        Locations:
+          clover on far cliff: Blizzard, Inferno, VoM, digging, Bloom
+      Burning Gear Room:
+        Exits:
+          Cannon Terrace: no requirement
+          Lechku and Nechku Antechamber: Inferno, Blizzard, Arrow Key
+        Locations:
+          burning chest in southeast: Inferno, Blizzard, Galestorm
+          item under bombable floor in northwest: Inferno, Blizzard, CB
+      Lechku and Nechku Antechamber :
+        Exits:
+          Burning Gear Room: no requirement
+          Lechku and Nexhku Arena: no requirement
+        Locations:
+          two frozen chests on west wall: lvl5 reflector+Inferno/Fireburst
+      Lechku and Nechku Arena:
+        Exits:
+          Lechku and Nechku Antechamber: no requirement
+        Locations:
+          Lechku and Nechku reward:  Inferno, Blizzard, ThunderStorm
+
+  Arc of Yamato: #normally point of no return, include if can be open
+    Rooms:
+      Main Room:
+        Exits:
+          Ezofuji: no requirement
+        Locations:
+          Shop Access: no requirement
