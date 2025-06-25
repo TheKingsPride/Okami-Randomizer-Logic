@@ -11,7 +11,7 @@ River of Heavens: #consider splitting room 1 into 2 parts
         River of Heavens Room 2: Rejuvination
       Locations:
         chest after jump up: no requirement
-        Rejuvination: #unknown if constellations require ink
+        Rejuvination: no requirement #unknown if constellations require ink
         chest after restoring river: Rejuvination #required, can we disable the flag?
     Room 2:
       Exits:
@@ -30,7 +30,7 @@ Kamiki Village:
     imp fight praise reward: no requirement
     chest after Imp fight: no requirement
     first chest under sunrise platform: no requirement
-    second chest under sunrise platform #might be a tricky jump without double jump, factor into logic?
+    second chest under sunrise platform: no requirement  #might be a tricky jump without double jump, factor into logic?
     Komuso fight praise reward: no requirement
     buried chest next to Komuso:  digging
     chest on rear island: no requirement
@@ -41,7 +41,7 @@ Kamiki Village:
     chest buried in turnip field:  digging
     chest in Orange house:  digging
     2 chests in river near bridge:  Power Slash
-    Merchant fight praise reward:  #attached cutscene
+    Merchant fight praise reward: no requirement #attached cutscene
     Merchant access:  Rejuvination, Power Slash
     Water Lily Constellation:  Bloom
     chest on island near Susanoo's house:  Water Lily
@@ -83,7 +83,7 @@ Shinshu Field:
     Cherry Bomb tutorial chest:  Cherry Bomb
     chest outside entrance to Agata Forest: no requirement
     chest under gloomy patch outside entrance to Agata Forest:  Bloom, Cherry Bomb
-    Mika's Monster Notebook #Don't know if we can separate this
+    Mika's Monster Notebook: no requirement  #Don't know if we can separate this
     Mika's Monster Notebook reward:  Mika's Monster Notebook
     chest south of slope down to Moon Cave: no requirement
     chest behind bombable wall near Catwalk statue:  Cherry Bomb
@@ -138,7 +138,7 @@ Agata Forest:
   cursed by default: uncursed by Bloom, Cherry Bomb
   Exits:
     Shinshu Field: no requirement
-    Tsuta Ruins::  Ruins Key [carried]
+    Tsuta Ruins: Ruins Key [carried]
     Taka Pass:  Vine
     Ryoshima Coast unlocked from Ryoshima side: no requirement
   Locations:
@@ -167,7 +167,7 @@ Agata Forest:
     chest next to Kiba: no requirement
     shop access: no requirement
     fang shop access: no requirement
-    near Tsuta demon gate praise reward
+    near Tsuta demon gate praise reward: no requirement
     buried chest outside Tsuta:  lvl2 digging
     chest outside Tsuta: no requirement
     chest under leaf pile near Sleepy Bear:  Galestorm, digging
@@ -285,11 +285,11 @@ Tsuta Ruins:
     Dogu Statue Interior:
       Exits:
         Main Room: no requirement
-        Locations:
-          first gloomy patch: Bloom
-          second gloomy patch: Bloom
-          third gloomy patch: Bloom
-          Vine Constellation: Bloom
+      Locations:
+        first gloomy patch: Bloom
+        second gloomy patch: Bloom
+        third gloomy patch: Bloom
+        Vine Constellation: Bloom
     Spider Queen Antechamber:
       Exits:
         Central Room: no requirement
@@ -412,7 +412,7 @@ Sasa Sanctuary:
     Kaguya digging reward: digging, Power Slash, Cherry Bomb, Waterspout, Bloom
 
 City Checkpoint:
-  Sub-Areas:
+  Rooms:
     East Bank:
       Exits:
         Taka Pass: no requirement
@@ -639,7 +639,7 @@ Moon Cave:
         Rocky Passage: Galestorm, Inferno, Torches lit/tier 5 reflector/Fireburst
     Rocky Passage:
       Exits:
-        Main Room 4F
+        Main Room 4F: no requirement
       Locations:
         lower frozen chest on ledge: Galestorm, Inferno
         upper frozen chest on ledge: Galestorm, Inferno
@@ -714,7 +714,7 @@ Ryoshima Coast:
     14 clamshell on rocks in bay: Waterlily, Power Slash
 
 Sei-An City Commoner's Quarter:
-  Cursed by default: uncursed by Killing Blight
+  cursed by default: uncursed by Killing Blight
   Exits:
     Ryoshima Coast: no requirement
     Sei-An City Bridge: no requirement
@@ -779,7 +779,7 @@ Sei-An City Commoner's Quarter:
     fast third lily ferry praise reward: Waterlily, Galestorm
 
 Sei-An City Bridge:
-  Cursed by Default: Uncursed by Killing Blight
+  cursed by default: Uncursed by Killing Blight
   Exits:
     Sei-An City Commoner's Quarter: no requirement
     Sei-An City Aristocratic Quarter: Blinding Snow
@@ -789,7 +789,7 @@ Sei-An City Bridge:
     chest in eastern lake: Power Slash
 
 Sei-An City Aristocratic Quarter:
-  Cursed by default: uncursed by Killing Blight
+  cursed by default: uncursed by Killing Blight
   Exits:
     Sei-An City Bridge: no requirement
     Himiko's Palace: Veil of Mist
@@ -825,7 +825,8 @@ Sei-An City Aristocratic Quarter:
     electric chest next to Gen: Catwalk, Gimmick Gear, LightningBolt
 
 Sunken Ship:
-  Exits: Ryoshima Coast
+  Exits:
+    Ryoshima Coast: no requirement
   Locations:
     three chests in first room: no requirement
     chest next to golden gate:  Sunrise, Crescent
@@ -933,7 +934,7 @@ Himiko's Palace:
 North Ryoshima Coast:
   #Uncursed by default
   Exits:
-    Ryoshima Coast: #Border Key?
+    Ryoshima Coast: no requirement #Border Key?
     Ryoshima Sea: Sunrise/Water Tablet
     Oni Island: Dragon Orb
   Locations:
@@ -945,7 +946,7 @@ North Ryoshima Coast:
     shop access: no requirement
     chest in stream near waterfall: Power Slash
     chest in stream near bridge: Power Slash
-    two chests in stream between bridge and ocean
+    two chests in stream between bridge and ocean: no requirement
     chest buried on beach near Urashima's house: digging
     chest buried near golden spring: digging
     chest buried on Guardian Sapling island: Waterlily, digging
@@ -1304,7 +1305,7 @@ Kamui:
     three clovers in Blockhead Grande grotto: lvl2 digging, Bloom
     Blockhead Grande praise reward: lvl2 digging
     three chests after Blockhead Grande: lvl2 digging
-    demon gate in frozen lake praise reward
+    demon gate in frozen lake praise reward: no requirement
     chest buried next to frozen lake demon gate: digging
     chest buried on small island in frozen lake: digging
     Wali's Record of Penance: no requirement
@@ -1390,7 +1391,7 @@ Yoshpet:
     Demon Grove:
       Exits:
         Yoshpet Entry: Double Jump
-        Icicle Gorge
+        Icicle Gorge: no requirement
       Locations:
         chest after first vine wall: no requirement
         chest in demon tree grove: no requirement
@@ -1479,7 +1480,7 @@ Inner Yoshpet:
 
 Past Kamiki:
   Exits:
-    Spirit Gate: #not available in Vanilla
+    Spirit Gate: no requirement #not available in Vanilla
     Past Shinshu Field: no requirement
   Locations:
     clover on west island: digging, Bloom
