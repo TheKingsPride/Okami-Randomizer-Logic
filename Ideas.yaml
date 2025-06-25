@@ -1,0 +1,21 @@
+#replace some junk (scrolls!) with Demon Fang Packets???
+
+#Keep light beams spawned above buried chests???
+
+#randomize weapons in tiers
+
+#required items are Path of Gods (PoG)
+
+#create item to warp to starting point
+
+#remove item get textboxes for redundant items (treasures, etc.)
+
+#chest type matches contents
+
+#start with Sunrise/Crescent to make managing day/night cycle not a pain
+
+Goal Conditions:
+  - Yami Defeated
+  - Bosses Defeated
+  - Brush Hunt
+  - Bead Hunt
