@@ -352,7 +352,7 @@ Taka Pass:
         chest under leaf pile behind cutters house: Galestorm, digging
         chest buried next to lake near cutters house: digging
         clover on cliff above lake near cutters house: WaterSpout, digging, Bloom
-        Bingo digging: Galestorm, WaterSpout, digging, Power Slash, Bloom, PATIENCE
+        Bingo digging: Galestorm, WaterSpout, digging, Power Slash, Bloom
         clover on ledge above cat statue: Catcall, digging, Bloom
     Moley's Treasure Trove:
       Exits:
@@ -1356,7 +1356,7 @@ Snowball Playground:
     chest buried by south wall: digging
     frozen chest in southeast: Inferno
     frozen chest in east: Inferno
-    snowball roll praise reward: FUCKING PATIENCE
+    snowball roll praise reward: no requirement
 
 Ezofuji:
   Exits:
