@@ -60,7 +60,7 @@ Shinshu Field:
     Hana Valley: no requirement
     Agata Forest water tunnel: Water Lily, Cherry Bomb
     Moon Cave: no requirement
-    Kamui: Catwalk, ThunderStorm
+    Kamui: Catwalk, Thunderstorm
   Locations:
     bloom guardian sapling: Bloom
     chest underneath Guardian Sapling: no requirement
@@ -102,7 +102,7 @@ Shinshu Field:
     Guardian Statue 4 praise reward:  Sunrise, Crescent
     Guardian Statue 5 praise reward:  Sunrise, Crescent
     chest buried behind potter's workshop:  digging
-    chest on gate to Moon Cave:  WaterSpout
+    chest on gate to Moon Cave:  Waterspout
     devil gate on ridge praise reward:  Catwalk
     clover near devil gate on ridge:  Catwalk, digging, Bloom
     chest buried near devil gate on ridge:  Catwalk, digging
@@ -143,8 +143,8 @@ Agata Forest:
     Ryoshima Coast unlocked from Ryoshima side: no requirement
   Locations:
     chest inside Madame Fawn's house*: no requirement
-    3 chests outside Madame Fawn's house*:  WaterSpout/Galestorm
-    chest on ledge above Madame Fawn's house*:  WaterSpout
+    3 chests outside Madame Fawn's house*:  Waterspout/Galestorm
+    chest on ledge above Madame Fawn's house*:  Waterspout
     clover outside Madame Fawn's house*:  lvl3 Power Slash, digging, bloom
     bloom Guardian Sapling praise reward*: Cherry Bomb, Bloom
     chest under guardian sapling: Cherry Bomb, Bloom
@@ -351,8 +351,8 @@ Taka Pass:
         Cutters combat: no requirement
         chest under leaf pile behind cutters house: Galestorm, digging
         chest buried next to lake near cutters house: digging
-        clover on cliff above lake near cutters house: WaterSpout, digging, Bloom
-        Bingo digging: Galestorm, WaterSpout, digging, Power Slash, Bloom
+        clover on cliff above lake near cutters house: Waterspout, digging, Bloom
+        Bingo digging: Galestorm, Waterspout, digging, Power Slash, Bloom
         clover on ledge above cat statue: Catcall, digging, Bloom
     Moley's Treasure Trove:
       Exits:
@@ -409,7 +409,7 @@ Sasa Sanctuary:
     chest buried on grove path: digging
     left chest buried in grove alcove: digging
     right chest buried in grove alcove: digging
-    Kaguya digging reward: digging, Power Slash, Cherry Bomb, WaterSpout, Bloom
+    Kaguya digging reward: digging, Power Slash, Cherry Bomb, Waterspout, Bloom
 
 City Checkpoint:
   Sub-Areas:
@@ -421,7 +421,7 @@ City Checkpoint:
         shop access: no requirement
         chest buried behind shop: digging
         chest under south ramp: no requirement
-        flaming chest on riverbank: WaterSpout/Galestorm
+        flaming chest on riverbank: Waterspout/Galestorm
         chest buried on riverbank: digging
         chest buried near end of riverbank: digging
         clover at end of riverbank: digging, Bloom
@@ -527,7 +527,7 @@ Moon Cave:
       Locations:
         Thunder Brew: no requirement
         chest after gold gate: no requirement
-        frozen chest on ledge: WaterSpout, Inferno
+        frozen chest on ledge: Waterspout, Inferno
         demon gate chest: no requirement
     Main Room:
       Exits:
@@ -551,7 +551,7 @@ Moon Cave:
         chest on platform above soup: Vine
     Long Cave:
       Exits:
-        Main Room 2F: WaterSpout
+        Main Room 2F: Waterspout
         Circular Room: Vine, Power Slash
     Circular Room:
       Exits:
@@ -561,9 +561,9 @@ Moon Cave:
     Main Room 2F:
       Exits:
         Main Room: no requirement
-        Main Room 3F: WaterSpout
+        Main Room 3F: Waterspout
       Locations:
-        chest on ledge: Inferno, Torches lit/tier 5 reflector/FIreburst, WaterSpout
+        chest on ledge: Inferno, Torches lit/tier 5 reflector/FIreburst, Waterspout
     Main Room 3F:
       Exits:
         Main Room: no requirement
@@ -588,10 +588,10 @@ Moon Cave:
         3 frozen chests: Inferno, Torches lit/tier 5 reflector/FIreburst
     Basement Cavern:
       Exits:
-        Main Room B1: WaterSpout
+        Main Room B1: Waterspout
       Locations:
         demon gate praise reward: no requirement
-        chest on ledge: WaterSpout, Waterlily
+        chest on ledge: Waterspout, Waterlily
     Main Room B1:
       Exits:
         Basement Cavern: no requirement
@@ -651,10 +651,10 @@ Moon Cave:
         shop access: no requirement
     Orochi Arena:
       Locations:
-        Orochi Reward: Power Slash, WaterSpout, Crescent
+        Orochi Reward: Power Slash, Waterspout, Crescent
 
 Ryoshima Coast:
-  Cursed by default: uncursed by Cherry Bomb, WaterSpout, Bloom
+  Cursed by default: uncursed by Cherry Bomb, Waterspout, Bloom
   Exits:
     City Checkpoint West Bank: no requirement
     Sei-An City Commoner's Quarters: no requirement
@@ -760,11 +760,11 @@ Sei-An City Commoner's Quarter:
     Drawing Girl fourth praise reward: no requirement
     Drawing Girl fifth praise reward: no requirement
     Drawing Girl final reward: no requirement
-    chest behind Tao Troopers headquarters: WaterSpout
-    Hayazo first reward: Inferno, Power Slash, WaterSpout
-    Hayazo second reward: Inferno, Power Slash, WaterSpout
-    Hayazo third reward: Inferno, Power Slash, WaterSpout
-    Hayazo fourth reward: Inferno, Power Slash, WaterSpout, ThunderStorm
+    chest behind Tao Troopers headquarters: Waterspout
+    Hayazo first reward: Inferno, Power Slash, Waterspout
+    Hayazo second reward: Inferno, Power Slash, Waterspout
+    Hayazo third reward: Inferno, Power Slash, Waterspout
+    Hayazo fourth reward: Inferno, Power Slash, Waterspout, Thunderstorm
     Samurai Dandy reward: Glass Watch
     Momotaro reward: Millet Dumplings
     City Dweller reward: Chrysanthemum Hairpin
@@ -817,8 +817,8 @@ Sei-An City Aristocratic Quarter:
     chest buried near Komuso: no requirement
     clover bured near west water wheel: no requirement
     chest in canal near east water wheel: Power Slash
-    water Himiko's Grave: WaterSpout, Ninetales Defeated
-    chest after watering Himiko's Grave: WaterSpout, Ninetales Defeated
+    water Himiko's Grave: Waterspout, Ninetales Defeated
+    chest after watering Himiko's Grave: Waterspout, Ninetales Defeated
     Gen reward: Catwalk, Gimmick Gear
     Gen praise reward: Catwalk, Gimmick Gear
     chest after Gen reward: Catwalk, Gimmick Gear
@@ -882,7 +882,7 @@ Imperial Palace:
     Bamboo Room:
       Exits:
         Footpath: Veil of Mist
-        Bedroom: WaterSpout
+        Bedroom: Waterspout
       Locations:
         chained chest below tilting Bamboo: no requirement
     Bedroom:
@@ -951,7 +951,7 @@ North Ryoshima Coast:
     chest buried on Guardian Sapling island: Waterlily, digging
     clover on Guardian Sapling island: Waterlily, digging, Bloom
     chest on Guardian Sapling island: Waterlily, digging
-    Guardian Sapling fruit praise reward: WaterSpout, Power Slash
+    Guardian Sapling fruit praise reward: Waterspout, Power Slash
     chest buried near demon gate: digging
     demon gate praise reward: no requirement
     three clovers in secret spring: lvl2 digging, Bloom
@@ -1090,14 +1090,14 @@ Water Dragon:
         clamshell on platform near Arrow Key: no requirement
         clamshell on platform in pool: no requirement
         clamshell buried near platform in pool: digging
-        chest in passageway in ceiling: WaterSpout
-        item on platform in pool: WaterSpout
+        chest in passageway in ceiling: Waterspout
+        item on platform in pool: Waterspout
         clamshell buried near tree: digging
     Orb Chamber:
       Exits:
         Main Chamber: no requirement
       Locations:
-        orb reward: WaterSpout, Waterlily
+        orb reward: Waterspout, Waterlily
         tube fox fight reward: no requirement
 
 Oni Island:
@@ -1123,7 +1123,7 @@ Oni Island:
       Locations:
         shop access: no requirement
         item in side room: no requirement
-        chest in locked side room: ThunderStorm, Thunder Key/Tier 5 Glaive
+        chest in locked side room: Thunderstorm, Thunder Key/Tier 5 Glaive
     East Staircase:
       Exits:
         Main Room 1F: no requirement
@@ -1191,19 +1191,19 @@ Oni Island:
     Statue Terrace:
       Exits:
         Connecting Passage: no requirement
-        3F Passage: ThunderStorm
+        3F Passage: Thunderstorm
       Locations:
-        ThunderStorm Constellation: Rejuvination
+        Thunderstorm Constellation: Rejuvination
         clover in front of door to 3F: no requirement
     3F Passage Upper:
       Exits:
         Statue Terrace: no requirement
         3F Passage Lower: Cherry Bomb
       Locations:
-        electric chest: ThunderStorm
+        electric chest: Thunderstorm
     3F Passage Lower:
       Exits:
-        Sliding Doors of Hell: Cherry Bomb, {ThunderStorm, Thunder Key/Tier 5 Glaive}first time] {Vine}[second time]
+        Sliding Doors of Hell: Cherry Bomb, {Thunderstorm, Thunder Key/Tier 5 Glaive}first time] {Vine}[second time]
       Locations:
         item behind hanging scroll: no requirement
     Sliding Doors of Hell:
@@ -1223,10 +1223,10 @@ Oni Island:
     Statue Chamber:
       Exits:
         Main Room 1F: no requirement
-        Sidescroll Passage: ThunderStorm, Power Slash
+        Sidescroll Passage: Thunderstorm, Power Slash
       Locations:
-        east electric chest: ThunderStorm
-        west electric chest: ThunderStorm
+        east electric chest: Thunderstorm
+        west electric chest: Thunderstorm
         east chest: no requirement
         west chest: no requirement
     Sidescroll Passage:
@@ -1234,23 +1234,23 @@ Oni Island:
         Statue Chamber: no requirement
         Main Chamber 5F: no requirement
       Locations:
-        item at top of passage: ThunderStorm, Catwalk, Power Slash
-        chest in side corridor above item at top of passage: ThunderStorm, Catwalk, Power Slash
-        chest after blossoms above item at top of passage: ThunderStorm, Catwalk, Power Slash, Vine
+        item at top of passage: Thunderstorm, Catwalk, Power Slash
+        chest in side corridor above item at top of passage: Thunderstorm, Catwalk, Power Slash
+        chest after blossoms above item at top of passage: Thunderstorm, Catwalk, Power Slash, Vine
     Main Chamber 4F:
       Exits:
         Sidescroll Passage: no requirement
         Racing Passage 5F: Thunder Key/Weapon Tier 5, Arrow Key, Veil of Mist, Cherry Bomb, Vine
       Locations:
-        electric chest below staircase: ThunderStorm, Thunder Key/Weapon Tier 5
-        electric chest on ledge: ThunderStorm, Thunder Key/Weapon Tier 5
+        electric chest below staircase: Thunderstorm, Thunder Key/Weapon Tier 5
+        electric chest on ledge: Thunderstorm, Thunder Key/Weapon Tier 5
         chest in locked room: Thunder Key/Weapon Tier 5, Veil of Mist
     Racing Passage 5F:
       Exits:
         Main Chamber 4F: no requirement
       Locations:
-        electric chest above stairs: ThunderStorm, Thunder Key/Weapon Tier 5
-        electric chest above stairs halfway through race: ThunderStorm, Thunder Key/Weapon Tier 5
+        electric chest above stairs: Thunderstorm, Thunder Key/Weapon Tier 5
+        electric chest above stairs halfway through race: Thunderstorm, Thunder Key/Weapon Tier 5
     Ogre's Chamber:
       Exits:
         Racing Passage 5F: no requirement
@@ -1264,7 +1264,7 @@ Oni Island:
         Poison Pit: Catwalk
         Lightning Chamber: Veil of Mist
       Locations:
-        electric chest on ledge: Catwalk, Veil of Mist, ThunderStorm, Thunder Key/Weapon Tier 5
+        electric chest on ledge: Catwalk, Veil of Mist, Thunderstorm, Thunder Key/Weapon Tier 5
     Lightning Chamber:
       Exits:
         Spider Corridor: Veil of Mist
@@ -1274,7 +1274,7 @@ Oni Island:
         Lightning Chamber: no requirement
         Rooftop Arena: Vine, double jump
       Locations:
-        electric chest above Lightning Chamber: Vine, double jump, ThunderStorm, Thunder Key/Weapon Tier 5
+        electric chest above Lightning Chamber: Vine, double jump, Thunderstorm, Thunder Key/Weapon Tier 5
     Rooftop Arena:
       Exits:
         Race Passage 7F: no requirement
@@ -1282,14 +1282,14 @@ Oni Island:
         Ninetales Reward: Thunderstorm
 
 Kamui:
-  Cursed by Default: Uncursed with ThunderStorm, Bloom
+  Cursed by Default: Uncursed with Thunderstorm, Bloom
   Exits:
     Shinshu Field: no requirement
     Wep'Keer: no requirement
     Yoshpet: Sewaprolo
   Locations:
-    Yoichi praise reward: ThunderStorm*
-    bloom guardian sapling: ThunderStorm, Bloom*
+    Yoichi praise reward: Thunderstorm*
+    bloom guardian sapling: Thunderstorm, Bloom*
     frozen chest next to Yoichi's hut: Inferno
     chest buried near Kokari: digging
     frozen chest near Kokari: Inferno
@@ -1435,8 +1435,8 @@ Ponc'Tan:
     chest on farthest west walkway platform: no requirement
     chest on northwest platform: no requirement
     chest on platform next to bowl pool: Vine
-    chest on tall platform above bowl pool: Vine, WaterSpout
-    chest on platform behind onion house: Vine, WaterSpout
+    chest on tall platform above bowl pool: Vine, Waterspout
+    chest on platform behind onion house: Vine, Waterspout
     clover on top of central mushroom: Vine, digging, Bloom
     chest above shop: Vine, double jump
     chest on platform behind Ishaku's house: Vine
@@ -1513,7 +1513,7 @@ Past Moon Cave:
     Past Shinshu Field: no requirement
   Locations:
     item on stairs: no requirement
-    True Orochi reward: WaterSpout, Power Slash, Crescent
+    True Orochi reward: Waterspout, Power Slash, Crescent
 
 Wawku Shrine:
   Rooms:
@@ -1527,7 +1527,7 @@ Wawku Shrine:
     Central Room 1F:
       Exits:
         Entryway: no requirement
-        Central Room 2F: Arrow Key, Inferno, WaterSpout
+        Central Room 2F: Arrow Key, Inferno, Waterspout
         Scale Chamber: Inferno
     Scale Chamber:
       Exits:
@@ -1652,7 +1652,7 @@ Wawku Shrine:
       Exits:
         Lechku and Nechku Antechamber: no requirement
       Locations:
-        Lechku and Nechku reward:  Inferno, Blizzard, ThunderStorm
+        Lechku and Nechku reward:  Inferno, Blizzard, Thunderstorm
 
 Arc of Yamato: #normally point of no return, include if can be open
   Rooms:
