@@ -58,7 +58,7 @@ Shinshu Field:
   Exits:
     Kamiki Village: no requirement
     Hana Valley: no requirement
-    Agata Forest water tunnel: Water Lily, Cherry Bomb
+    Agata Forest: Water Lily, Cherry Bomb # through water tunnel
     Moon Cave: no requirement
     Kamui: Catwalk, Thunderstorm
   Locations:
@@ -140,7 +140,7 @@ Agata Forest:
     Shinshu Field: no requirement
     Tsuta Ruins: Ruins Key [carried]
     Taka Pass:  Vine
-    Ryoshima Coast unlocked from Ryoshima side: no requirement
+    Ryoshima Coast: no requirement # unlocked from Ryoshima side
   Locations:
     chest inside Madame Fawn's house*: no requirement
     3 chests outside Madame Fawn's house*:  Waterspout/Galestorm
@@ -657,7 +657,7 @@ Ryoshima Coast:
   Cursed by default: uncursed by Cherry Bomb, Waterspout, Bloom
   Exits:
     City Checkpoint West Bank: no requirement
-    Sei-An City Commoner's Quarters: no requirement
+    Sei-An City Commoner's Quarter: no requirement
     Agata Forest: no requirement
     Sunken Ship: Double Jump, Crescent, Prayer Slips
     North Ryoshima Coast: Border Key
@@ -1655,7 +1655,7 @@ Wawku Shrine:
       Locations:
         Lechku and Nechku reward:  Inferno, Blizzard, Thunderstorm
 
-Arc of Yamato: #normally point of no return, include if can be open
+Ark of Yamato: #normally point of no return, include if can be open
   Rooms:
     Main Room:
       Exits:
