@@ -7,23 +7,23 @@ River of Heavens: #consider splitting room 1 into 2 parts
   Rooms:
     Room 1:
       Exits:
-        Kamiki Village: no requirement 
+        Kamiki Village: no requirement
         River of Heavens Room 2: Rejuvination
       Locations:
-        chest after jump up: no requirement 
+        chest after jump up: no requirement
         Rejuvination: #unknown if constellations require ink
         chest after restoring river: Rejuvination #required, can we disable the flag?
     Room 2:
-      Exits: 
+      Exits:
         River of Heavens Room 1: no requirement
       Locations:
         Power Slash Constellation: Rejuvination, #location may lock player
-        chest behind trees near waterfall: no requirement 
+        chest behind trees near waterfall: no requirement
 
 Kamiki Village:
   cursed by default: uncursed by Sunrise
   Exits:
-    River of Heavens Room 1: no requirement 
+    River of Heavens Room 1: no requirement
     Shinshu Field: Rejuvination
   Locations:
     Sunrise*: no requirement
@@ -52,7 +52,7 @@ Kamiki Village:
     clover on cliff near waterfall:  Vine, digging, Bloom
     chest at waterfall source:  Vine
     Hayabusa fight: Canine Tracker
-       
+
 Shinshu Field:
   cursed by default:  Rejuvination, Power Slash to open, uncursed by Bloom
   Exits:
@@ -183,10 +183,10 @@ Agata Forest:
     Crescent Constellation: no requirement
     Ume fight: no requirement
     clover in cave near Tsuta:  Cherry Bomb, Catcall
-    
+
 Tsuta Ruins:
   cursed by default: uncursed with Sunrise, Power Slash
-  Exits: 
+  Exits:
     Agata Forest: no requirement
   Rooms:
     Central Room:
@@ -203,7 +203,7 @@ Tsuta Ruins:
         chest in first room near door*: no requirement
         clover next to living tree in river: Waterlily, digging, Bloom
         clover next to Dogu Statue Entrance: digging, Bloom
-    Demon Tree Passage: 
+    Demon Tree Passage:
       Exits:
         Central Room: no requirement
         Waterfall Hallway: no requirement
@@ -311,7 +311,7 @@ Taka Pass:
   Sub Areas:
     Guardian Sapling Path:
       Exits:
-        Main Area: no requirement 
+        Main Area: no requirement
       Locations:
         chest hidden in pool in Waka fight room: Power Slash*
         first flaming chest in passageway to guardian sapling: Waterspout/Galestorm*
@@ -398,7 +398,7 @@ Kusa Village:
 Sasa Sanctuary:
   Exits:
     Taka Pass: no requirement
-  Locations: 
+  Locations:
     chest next to main gate*: no requirement
     daruma doll in merchant's room: no requirement
     shop access: no requirement
@@ -413,7 +413,7 @@ Sasa Sanctuary:
 
 City Checkpoint:
   Sub-Areas:
-    East Bank: 
+    East Bank:
       Exits:
         Taka Pass: no requirement
         City Checkpoint West Bank: Inferno
@@ -632,7 +632,7 @@ Moon Cave:
         chest near orb button:  Galestorm
         clover in sand:  Galestorm, digging, Bloom
     Main Room 4F:
-      Exits: 
+      Exits:
         Main Room 3F: no requirement
         Main Room 2F: no requirement
         Main Room: no requirement
@@ -652,7 +652,7 @@ Moon Cave:
     Orochi Arena:
       Locations:
         Orochi Reward: Power Slash, WaterSpout, Crescent
-            
+
 Ryoshima Coast:
   Cursed by default: uncursed by Cherry Bomb, WaterSpout, Bloom
   Exits:
@@ -1065,7 +1065,7 @@ Dragon Palace:
         clamshell on high ledge: no requirement
         gloomy patch where dragon was: Bloom #post-dragon
         chest after blooming gloomy patch: no requirement #post-dragon
-    
+
 Water Dragon:
   Exits:
     Dragon's Garden: no requirement
@@ -1101,7 +1101,7 @@ Water Dragon:
         tube fox fight reward: no requirement
 
 Oni Island:
-  Rooms: 
+  Rooms:
     Dragon Bridge:
       Exits:
         North Ryoshima Coast: no requirement
@@ -1145,7 +1145,7 @@ Oni Island:
         Catwalk Staircase: Catwalk, Double Jump
         Passage of Saws: Double Jump
     Passage of Saws:
-      Exits:  
+      Exits:
         Terraced Passage: no requirement
         Passage of Demonic Wheels: Double Jump
     Passage of Demonic Wheels:
@@ -1252,7 +1252,7 @@ Oni Island:
         electric chest above stairs: ThunderStorm, Thunder Key/Weapon Tier 5
         electric chest above stairs halfway through race: ThunderStorm, Thunder Key/Weapon Tier 5
     Ogre's Chamber:
-      Exits: 
+      Exits:
         Racing Passage 5F: no requirement
         Poison Pit: no requirement
     Poison Pit:
@@ -1280,7 +1280,7 @@ Oni Island:
         Race Passage 7F: no requirement
       Locations:
         Ninetales Reward: Thunderstorm
-        
+
 Kamui:
   Cursed by Default: Uncursed with ThunderStorm, Bloom
   Exits:
