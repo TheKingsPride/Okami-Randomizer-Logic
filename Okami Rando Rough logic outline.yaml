@@ -8,23 +8,23 @@ River of Heavens: #consider splitting room 1 into 2 parts
     Room 1:
       Exits:
         Kamiki Village: no requirement
-        River of Heavens Room 2: Rejuvination
+        River of Heavens Room 2: Rejuvenation
       Locations:
         chest after jump up: no requirement
-        Rejuvination: no requirement #unknown if constellations require ink
-        chest after restoring river: Rejuvination #required, can we disable the flag?
+        Rejuvenation: no requirement #unknown if constellations require ink
+        chest after restoring river: Rejuvenation #required, can we disable the flag?
     Room 2:
       Exits:
         River of Heavens Room 1: no requirement
       Locations:
-        Power Slash Constellation: Rejuvination, #location may lock player
+        Power Slash Constellation: Rejuvenation, #location may lock player
         chest behind trees near waterfall: no requirement
 
 Kamiki Village:
   cursed by default: uncursed by Sunrise
   Exits:
     River of Heavens Room 1: no requirement
-    Shinshu Field: Rejuvination
+    Shinshu Field: Rejuvenation
   Locations:
     Sunrise*: no requirement
     imp fight praise reward: no requirement
@@ -36,13 +36,13 @@ Kamiki Village:
     chest on rear island: no requirement
     chest buried on rear island:  digging
     chest on ledge near Mushi: no requirement
-    Mrs. Orange praise reward:  Rejuvination, Sunrise
+    Mrs. Orange praise reward:  Rejuvenation, Sunrise
     turnip digging praise reward:  digging #possible without ink, maybe trick logic?
     chest buried in turnip field:  digging
     chest in Orange house:  digging
     2 chests in river near bridge:  Power Slash
     Merchant fight praise reward: no requirement #attached cutscene
-    Merchant access:  Rejuvination, Power Slash
+    Merchant access:  Rejuvenation, Power Slash
     Water Lily Constellation:  Bloom
     chest on island near Susanoo's house:  Water Lily
     clover on island near Susanoo's house:  Water Lily, digging, bloom
@@ -54,7 +54,7 @@ Kamiki Village:
     Hayabusa fight: Canine Tracker
 
 Shinshu Field:
-  cursed by default:  Rejuvination, Power Slash to open, uncursed by Bloom
+  cursed by default:  Rejuvenation, Power Slash to open, uncursed by Bloom
   Exits:
     Kamiki Village: no requirement
     Hana Valley: no requirement
@@ -259,7 +259,7 @@ Tsuta Ruins:
     Overgrown Tunnel:
       Exits:
         Blockhead's Lair: no requirement
-        Mirror Room: Rejuvination
+        Mirror Room: Rejuvenation
       Locations:
         bud on plinth*: Bloom
     Mirror Room:
@@ -302,7 +302,7 @@ Tsuta Ruins:
         Spider Queen Reward: Vine
 
 Taka Pass:
-  Cursed by Default: Uncursed by Cherry Bomb, Rejuvination, Bloom
+  Cursed by Default: Uncursed by Cherry Bomb, Rejuvenation, Bloom
   Exits:
     Agata Forest: no requirement
     Sasa Sanctuary: Chun
@@ -320,7 +320,7 @@ Taka Pass:
         first chest under leaves on cliff near guardian sapling: Galestorm, digging*
         second chest under leaves on cliff near guardian sapling: Galestorm, digging*
         chest under leaves next to guardian sapling: Galestorm, digging*
-        bloom guardian sapling: Rejuvination, Bloom*
+        bloom guardian sapling: Rejuvenation, Bloom*
         first clover on cliff after vine chain: Vine, digging, Bloom
         second clover on cliff after vine chain: Vine, digging, Bloom
         third clover on cliff after vine chain: Vine, digging, Bloom
@@ -1052,7 +1052,7 @@ Dragon Palace:
       Locations:
         clamshell north of entrance: no requirement
         clamshell on north ledge: no requirement
-        chest on top of pillar: Rejuvination
+        chest on top of pillar: Rejuvenation
         spring digging reward: Power Slash, digging, Galestorm
         spring digging praise reward: Power Slash, digging, Galestorm
         chest after spring digging: Power Slash, digging, Galestorm
@@ -1194,7 +1194,7 @@ Oni Island:
         Connecting Passage: no requirement
         3F Passage: Thunderstorm
       Locations:
-        Thunderstorm Constellation: Rejuvination
+        Thunderstorm Constellation: Rejuvenation
         clover in front of door to 3F: no requirement
     3F Passage Upper:
       Exits:
